@@ -1,0 +1,34 @@
+.circle{
+  position:relative;
+  width:20px;
+  padding-bottom:20px;
+  background:blue;
+  border-radius:10px;
+}
+.line {
+        width: 112px;
+        height: 47px;
+        border-bottom: 1px solid blue;
+        -webkit-transform:
+            translateY(-20px)
+            translateX(5px)
+            rotate(27deg); 
+        position: absolute;
+        /* top: -20px; */
+    }
+	
+.diag {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M1 0 L0 1 L99 100 L100 99' fill='blue' /></svg>");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% 100%, auto;
+}
+
+.diag2 {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><line x1="0" y1="0" x2="80" y2="95" /></svg>");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% 100%, auto;
+}
+
+
