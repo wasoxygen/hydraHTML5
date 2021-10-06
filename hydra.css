@@ -1,3 +1,5 @@
+body, html { margin: 0px;}
+
 .circle{
   position:relative;
   width:20px;
@@ -5,6 +7,27 @@
   background:blue;
   border-radius:10px;
 }
+.circle:hover{
+  background:red;
+}
+
+#container {
+  position: relative;
+}
+#container canvas, #overlay {
+  position: absolute;
+}
+canvas {
+  //border: 1px solid black;
+}
+
+.title {
+	font-family: helvetica;
+	text-align: center;
+    font-size: small;
+	font-weight: bold;
+}
+
 .line {
         width: 112px;
         height: 47px;
