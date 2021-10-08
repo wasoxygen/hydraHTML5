@@ -1,0 +1,38 @@
+body, html { margin: 0px; overflow: hidden;}
+svg { position:fixed; top:0; bottom:0; left:0; right:0 }
+
+.circle{
+  position:relative;
+  width:20px;
+  padding-bottom:20px;
+  background:blue;
+  border-radius:10px;
+}
+
+circle:hover{
+  stroke:red;
+}
+
+line {
+	stroke-width: 1;
+}
+
+#container {
+  //position: relative;
+  border: 1px solid black;
+  margin: 20px;
+  //cursor: move;
+}
+#container canvas, #overlay {
+  position: absolute;
+}
+canvas {
+  //border: 1px solid black;
+}
+
+.title {
+	font-family: helvetica;
+	text-align: center;
+    font-size: small;
+	font-weight: bold;
+}
