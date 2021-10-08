@@ -6,7 +6,7 @@ A theorem by Paris and Kirby [1] states that *you always win*, no matter how you
 
 The Hydra game was implemented by [Andrej Bauer](http://andrej.com/) using a technology invented in the twentieth century known as "Java." The "applet" depended on [NPAPI](https://en.wikipedia.org/wiki/NPAPI) which was powered by a steam engine.
 
-[work in progress](https://wasoxygen.github.io/hydra/hydra.html)
+[work in progress](https://wasoxygen.github.io/hydraHTML5/hydra.html)
 
 #### References
 
