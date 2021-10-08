@@ -1,4 +1,5 @@
-body, html { margin: 0px;}
+body, html { margin: 0px; overflow: hidden;}
+svg { position:fixed; top:0; bottom:0; left:0; right:0 }
 
 .circle{
   position:relative;
@@ -7,12 +8,20 @@ body, html { margin: 0px;}
   background:blue;
   border-radius:10px;
 }
-.circle:hover{
-  background:red;
+
+circle:hover{
+  stroke:red;
+}
+
+line {
+	stroke-width: 1;
 }
 
 #container {
-  position: relative;
+  //position: relative;
+  border: 1px solid black;
+  margin: 20px;
+  //cursor: move;
 }
 #container canvas, #overlay {
   position: absolute;
@@ -27,31 +36,3 @@ canvas {
     font-size: small;
 	font-weight: bold;
 }
-
-.line {
-        width: 112px;
-        height: 47px;
-        border-bottom: 1px solid blue;
-        -webkit-transform:
-            translateY(-20px)
-            translateX(5px)
-            rotate(27deg); 
-        position: absolute;
-        /* top: -20px; */
-    }
-	
-.diag {
-    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M1 0 L0 1 L99 100 L100 99' fill='blue' /></svg>");
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size: 100% 100%, auto;
-}
-
-.diag2 {
-    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><line x1="0" y1="0" x2="80" y2="95" /></svg>");
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size: 100% 100%, auto;
-}
-
-
